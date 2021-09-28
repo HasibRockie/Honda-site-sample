@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container-fluid{
+    box-sizing: border-box;
+}
+
+.head-section,.carousel{
+    background-color: #264653;
+
+}
+.topbar{
+    justify-content:flex-end;
+    padding-right: 8%;
+    font-size: 18px;
+}
+
+.nav-item{
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.button-login,.purchase-button{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 7px 20px;
+    background-color: #E76F51;
+}
+
+.horizontal-line{
+   
+    display: flex;
+    justify-content: center;
+}
+.horizontal-line div{
+    text-align: center;
+    border-bottom: 5px solid #E76F51;
+    width: 60px;
+    margin-bottom: 40px;
+}
+
+.honda-card{
+    border-radius: 15px;
+}
+
+.why-us-icon{
+    font-size: 100px;
+}
